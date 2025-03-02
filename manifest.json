@@ -1,0 +1,75 @@
+{
+  "theme_color": "#bd10e0",
+  "background_color": "#f8e71c",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/borey/",
+  "start_url": "/borey/index.html",
+  "name": "SovannarotLoveApp",
+  "short_name": "SovannarotLove",
+  "description": "I am Sovannarot who love Chanborey so much and in my mind and heart have only Chanborey",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/sovannarot/learn/main/assets/icon/maskable_icon_x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sovannarot/learn/main/assets/icon/maskable_icon_x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sovannarot/learn/main/assets/icon/maskable_icon_x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sovannarot/learn/main/assets/icon/maskable_icon_x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sovannarot/learn/main/assets/icon/maskable_icon_x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sovannarot/learn/main/assets/icon/maskable_icon_x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sovannarot/learn/main/assets/icon/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sovannarot/learn/main/assets/icon/maskable_icon_x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://raw.githubusercontent.com/sovannarot/borey/main/assets/img/Picsart_25-03-03_00-12-23-417.jpg",
+      "sizes": "1280x721",
+      "form_factor": "wide",
+      "type": "image/jpg"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sovannarot/borey/main/assets/img/Picsart_25-03-03_00-12-23-417.jpg",
+      "sizes": "1920x1080",
+      "form_factor": "narrow",
+      "type": "image/jpg"
+    }
+  ]
+}

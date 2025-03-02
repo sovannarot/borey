@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: url("https://img.freepik.com/free-vector/little-red-heart-background_53876-98914.jpg");
+  background-size: cover;
+  padding-top: 30px;
+}
+.lovedate {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+.imglove {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  padding: 10px;
+}
+.lovetime {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rebeccapurple;
+  font-size: 15px;
+  gap: 5px;
+}
+.lovetime h2 {
+  font-size: 20px;
+}
+.imglove img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.imglove h3 {
+  color: red;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 100px;
+}
+#textlove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: red;
+  font-size: 23px;
+}
+.info .sheinfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  flex-direction: column;
+  color: royalblue;
+  font-weight: 300;
+}
+.heart {
+  --c: red;
+  width: 23px;
+  aspect-ratio: 1;
+  background: radial-gradient(at 70% 31%, var(--c) 29%, #0000 30%),
+    radial-gradient(at 30% 31%, var(--c) 29%, #0000 30%),
+    conic-gradient(from -45deg at 50% 84%, var(--c) 90deg, #0000 0) bottom/100%
+      50% no-repeat;
+}
+.textletter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+  color: red;
+  margin-top: 10px;
+}
+.textletter .wi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.wi h1 {
+  color: seagreen;
+}
+.textletter p {
+  color: blue;
+  font-size: 20px;
+  margin: 3px;
+  text-align: center;
+}
+.profile {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.profile a {
+  text-decoration: none;
+  font-size: 20px;
+}
