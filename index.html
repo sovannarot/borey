@@ -36,10 +36,22 @@
         <h3>ថ្ងៃដំបូង: 5:15PM ថ្ងៃ សុក្រ ទី 13 ខែ ធ្នូ ឆ្នាំ 2024</h3>
       </div>
       <div class="imglove">
-        <img
-          src="https://raw.githubusercontent.com/sovannarot/borey/main/assets/img/IMG_20250302_231239.jpg"
-          alt=""
-        />
+        <div class="flip-container" onclick="flipImage()">
+          <div class="flipper">
+            <img
+              id="frontImage"
+              class="front"
+              src="https://raw.githubusercontent.com/sovannarot/borey/main/assets/img/IMG_20250302_231239.jpg"
+              alt="Front Image"
+            />
+            <img
+              id="backImage"
+              class="back"
+              src="https://raw.githubusercontent.com/sovannarot/borey/main/assets/img/IMG_20250303_111835.jpg"
+              alt="Back Image"
+            />
+          </div>
+        </div>
         <div id="textlove">
           <div class="heart"></div>
           <h3>Love</h3>
@@ -49,6 +61,7 @@
         <img
           src="https://raw.githubusercontent.com/sovannarot/borey/main/assets/img/Picsart_25-03-03_00-27-48-947.jpg"
           alt=""
+          id="rotimg"
         />
       </div>
       <div class="info">

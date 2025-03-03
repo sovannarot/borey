@@ -71,3 +71,38 @@ const heage = document.getElementById("heage");
 heage.innerHTML = calculateAgeInYears(birthdatehe) + " ឆ្នាំ";
 const sheage = document.getElementById("sheage");
 sheage.innerHTML = calculateAgeInYears(birthdateshe) + " ឆ្នាំ";
+let images = [
+  "https://raw.githubusercontent.com/sovannarot/borey/main/assets/img/IMG_20250302_231239.jpg",
+  "https://raw.githubusercontent.com/sovannarot/borey/main/assets/img/IMG_20250303_111835.jpg",
+  "https://raw.githubusercontent.com/sovannarot/borey/main/assets/img/IMG_20250303_111848.jpg",
+  "https://raw.githubusercontent.com/sovannarot/borey/main/assets/img/IMG_20250303_111900.jpg",
+];
+let index = 0;
+let isFlipped = false;
+
+function flipImage() {
+  let flipper = document.querySelector(".flipper");
+  let frontImage = document.getElementById("frontImage");
+  let backImage = document.getElementById("backImage");
+
+  isFlipped = !isFlipped;
+  flipper.classList.toggle("flipped");
+
+  // Delay image change after the flip starts
+  setTimeout(() => {
+    index = (index + 1) % images.length;
+
+    let fadingImage = isFlipped ? backImage : frontImage;
+
+    // Smooth fade effect
+    fadingImage.style.opacity = "0";
+
+    setTimeout(() => {
+      fadingImage.src = images[index]; // Change image
+      fadingImage.style.opacity = "1"; // Fade in smoothly
+    }, 300); // Change image when fully faded
+  }, 500); // Matches flip animation timing
+}
+
+// Auto flip every 5 seconds
+setInterval(flipImage, 5000);
