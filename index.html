@@ -1,64 +1,272 @@
 <!DOCTYPE html>
+
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Love Letter to You</title>
-    <style>
-      body {
-        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #fff0f5;
-        color: #333;
-        text-align: center;
-        padding: 40px;
-      }
-      h1 {
-        color: #d63384;
-        font-size: 36px;
-      }
-      .photos {
-        margin: 20px 0;
-      }
-      .photos img {
-        width: 250px;
-        height: auto;
-        margin: 10px;
-        border-radius: 12px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-      }
-      .letter {
-        background: #fff;
-        padding: 20px;
-        border-radius: 15px;
-        display: inline-block;
-        max-width: 600px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      }
-      .letter p {
-        font-size: 18px;
-        line-height: 1.6;
-        color: #b82d2d;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>To My Dearest Love</h1>
-    <div class="photos">
-      <img src="photo1.jpg" alt="Photo 1" />
-      <img src="photo2.jpg" alt="Photo 2" />
-      <img src="photo3.jpeg" alt="Photo 3" />
-    </div>
-    <div class="letter">
-      <p>
-        I am truly sorry for my mistake and for hurting you with my words.<br />
-        I never meant to cause you pain. 😍<br /><br />
-        But please know this from the bottom of my heart:<br />
-        I don't want our love to end now. I want our love to end only when I
-        take my last breath.<br /><br />
-        Please, hold my hand and walk with me into the future.<br />
-        I want us to dream together, grow together, and never give up on us.<br /><br />
-        I love you always. 🥰
-      </p>
-    </div>
-  </body>
+
+  <head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Love You Borey</title>
+
+    <link
+
+      rel="shortcut icon"
+
+      href="https://raw.githubusercontent.com/sovannarot/learn/main/assets/img/favicon.jpg"
+
+      type="image/x-icon"
+
+    />
+
+    <link rel="stylesheet" href="./src/css/index.css" />
+
+    <link rel="manifest" href="manifest.json" />
+
+    <meta name="theme-color" content="#bd10e0" />
+
+    <meta
+
+      name="description"
+
+      content="I am Sovannarot who love Chanborey so much and in my mind and heart have only Chanborey"
+
+    />
+
+    <link
+
+      rel="apple-touch-icon"
+
+      sizes="180x180"
+
+      href="https://raw.githubusercontent.com/sovannarot/learn/main/assets/icon/maskable_icon_x180.png"
+
+    />
+
+    <link
+
+      rel="apple-touch-icon"
+
+      sizes="57x57"
+
+      href="https://raw.githubusercontent.com/sovannarot/learn/main/assets/icon/maskable_icon_x57.png"
+
+    />
+
+    <meta name="apple-mobile-web-app-status-bar" content="#fee800" />
+
+  </head>
+
+  <body>
+
+    <div id="lovedate">
+
+      <div class="lovetime">
+
+        <h1 id="date">23Days 2Months 0year</h1>
+
+        <h1 id="dateday">200days 5hours</h1>
+
+        <h3>ថ្ងៃដំបូង: 5:15PM ថ្ងៃ សុក្រ ទី 13 ខែ ធ្នូ ឆ្នាំ 2024</h3>
+
+      </div>
+
+      <div class="imglove">
+
+        <div class="flip-container" onclick="flipImage()">
+
+          <div class="flipper">
+
+            <img
+
+              id="frontImage"
+
+              class="front"
+
+              src="https://raw.githubusercontent.com/sovannarot/borey/main/assets/img/IMG_20250302_231239.jpg"
+
+              alt="Front Image"
+
+            />
+
+            <img
+
+              id="backImage"
+
+              class="back"
+
+              src="https://raw.githubusercontent.com/sovannarot/borey/main/assets/img/IMG_20250303_111835.jpg"
+
+              alt="Back Image"
+
+            />
+
+          </div>
+
+        </div>
+
+        <div id="textlove">
+
+          <div class="heart"></div>
+
+          <h3>Love</h3>
+
+          <div class="heart"></div>
+
+        </div>
+
+
+        <img
+
+          src="https://raw.githubusercontent.com/sovannarot/borey/main/assets/img/Picsart_25-03-03_00-27-48-947.jpg"
+
+          alt=""
+
+          id="rotimg"
+
+        />
+
+      </div>
+
+      <div class="info">
+
+        <div class="sheinfo">
+
+          <span class="sheday">29 June 2009</span>
+
+          <span id="sheage">15 years old</span>
+
+        </div>
+
+        <div class="sheinfo">
+
+          <span class="sheday">18 January 2009</span>
+
+          <span id="heage">15 years old</span>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="textletter">
+
+      <div class="wi">
+
+        <div class="heart"></div>
+
+        <h1>Love Letter</h1>
+
+        <div class="heart"></div>
+
+      </div>
+
+      <p>
+
+        បងស្រមៃគិតពីស្នេហារឿងពីថ្ងៃដំបូង ដល់បច្ចុប្បន្ន និងបន្តទៅអនាគតទៀត
+
+        ដើម្បីស្វែងយល់ពីអូនអោយបានច្បាស់ជាងឥឡូវទៀត
+
+        បងគិតៗទៅអូនពិតជាល្អខ្លាំងណាស់សម្រាប់បងនិងអូនជាChosen oneរបស់បង
+
+        គឺមានតែអូនទេដែលបងស្លាញ់
+
+        អូនពិតជាមនុស្សស្រីដែលជួយត្រួសត្រាយផ្លូវបងអោយគិតល្អឡើងវិញអំពីខ្លួនបង
+
+        និងជួយលុបបំបាត់ចិត្តនិងចរិតដ៏អាក្រក់របស់បងចោល
+
+        អូនជាមនុស្សស្រីដែលបានផ្តល់ស្នេហាដ៏ស្មោះសរស្មោះត្រង់អោយបង
+
+        គោលដៅបងចង់បានស្នេហាចឹងយូរបងចង់យូរសង្សារគឺយកធ្វើប្រពន្ធម៉ងមិនមែនស៊ាំរញ៉េរញ៉ៃទេ
+
+        ហើយអូនជាអ្នកសម្រេចគោលបំណងបងនឹងហើយ
+
+        អូនតែងតែផ្តល់អារម្មណ៍សប្បាយរីករាយអោយបងជានិច្ចទោះពេលខ្លះធ្វើបងអន់ចិត្តក៏ដោយ។
+
+        អូនបានផ្តល់នូវការរស់នៅរបៀបថ្មីម្យ៉ាងដល់បងដែលរីករាយបំផុត
+
+        អូនជាអ្នកជួយលើកទឹកចិត្តអោយបងជានិច្ច ។ បងសុំទោសផង
+
+        និងអូនលើកលែងទោសនិងអធ្យាស្រ័យអោយបងផង រាល់ពាក្យពេចន៍ សម្តីដែលគ្រោកគ្រាត
+
+        អាក្រក់ និងទង្វើដែលមិនល្អដែលបងប្រព្រឹត្តទៅលើអូន
+
+        បងបានធ្វើរឿងទាំងនឹងហើយបងមានអារម្មណ៍វិប្បសារីណាស់ថាហេតុអីបងធ្វើចឹង
+
+        ហើយខឹងខ្លួនឯងណាស់ 🥹😭 ។ អូន! បងចង់និយាយថាបងពិតប្រាកដជាមួយអូនណាស់
+
+        មិនមែនយកមកកំដរអារម្មណ៍ទេ ឬ
+
+        យកអូនត្រឹមជាស្នេហាវិទ្យាល័យដែលបែកគ្នាពេលរៀនចប់ទី១២ទេ
+
+        គឺយករហូតម៉ងជាប្រពន្ធបងម៉ង
+
+        អូនកុំភ័យអីតាបងប្រលងបាក់ឌុបចប់បងអោយចាស់ទុំដឹងឮជាជំហរហើយអូន😍
+
+        បងចង់បានអញ្ចឹងបានចង់តែងតែខ្លាចអូនបាត់បង់ចេញពីបងទៅ
+
+        មិនមែនប្រច័ណ្ឌអូនអត់ប្រយោជន៍ទេគឺខ្លាចណាស់ខ្លាចអូនលែងស្លាញ់បងទៅរកអ្នកផ្សេងបាត់
+
+        😭 ។ បងអរគុណដល់អូនពេញមួយជីវិតបង
+
+        ដែលអូនបានធ្វើអោយបងទទួលបានស្នេហាដែលជារឿងដ៏ប្រសិដ្ធមួយដែលបងចង់បាន
+
+        អូនមិនមែនផ្តល់ស្នេហាធម្មតាទេ អូនបានផ្តល់ស្នេហាមួយដែលបងចង់បាន
+
+        ស្នេហាមួយដែលល្អឥតខ្ចោះ ដែលមនុស្សគ្រប់គ្នាចង់បានតែមិនបាន។ អូនហា!
+
+        បងបាត់អូន អូនគេងមុនចឹងបងនៅម្នាក់ឯង បងមានអារម្មណ៍កំសត់ ឯកាណាស់ពៅមាសបង🥹 ។
+
+        បងសរសើរអូនណាស់ដែលហ៊ានស្លាញ់បងទាំងដែលបងកាលពីមុនធ្វើអាក្រក់ដាក់អូននោះ
+
+        អូនពិតជាពូកែណាស់ដែលធ្វើអោយបេះដូងដ៏រឹងមាំរបស់បងក្លាយជាបេះដូងមួយដែលពោពេញដោយស្នេហា
+
+        និងរូបស្រីក្នុងបេះដូង អារម្មណ៍ ខួរក្បាលបងបាន អូនធ្វើអោយចិត្ត
+
+        អារម្មណ៍បងអាស្រ័យលើអូនបាន ចិត្តអារម្មណ៍បងគឺតាមតែអូនទេ
+
+        បើអូនមិនស្រួលខ្លួនបងក៏ចឹងដែរ ហើយអូនធ្វើអោយបងចេះងក់ងរ ទន់ភ្លន់
+
+        និងចេះស្រក់ទឹកភ្នែកដោយសារអូនបាន 😁 បងស្រលាញ់អូននិងកូនណាស់🤪❤
+
+        ទីបំផុតការសរសេររបស់បងនិងការគិតរបស់បងត្រូវបានបញ្ចប់បងបានគិតគ្រប់បែបយ៉ាងហើយទាំងកាលពីស្នេហាដំបូងដល់បច្ចុប្បន្ននិងឈានទៅអនាគត
+
+        បងត្រៀមអូនរាល់បញ្ហា អាកប្បកិរិយាអូន ការសម្តីនិងទង្វើអាក្រក់អូនដាក់បង
+
+        ការប្រែប្រួលប្លែករបស់អូន សព្វគ្រប់បែបយ៉ាងហើយ គឺទោះមានឧបសគ្គធំយ៉ាងណា
+
+        អូនប្រែប្រួលយ៉ាងណាក៏ដោយក៏បងប្រែប្រួលតាមស្លាញ់អូនរហូត😍 ស្នេហាទឹមតែ<span
+
+          id="spantime"
+
+        ></span
+
+        >របស់ពួកយើងអូនពិតជាផ្តល់គ្រប់រសជាតិអោយបងហើយ
+
+        និងបងគិតថាស្នេហាពួកយើងនេះមានន័យដូចនិងលើសស្នេហាដទៃដែលមានរយះពេលដ៏យូរទៅទៀត
+
+        គឺជាស្នេហាដ៏ល្អបំផុត
+
+      </p>
+
+    </div>
+
+    <div class="profile">
+
+      <h2 style="color: chartreuse">Profiles</h2>
+
+      <a href="https://www.facebook.com/sovannarotnundev">Sovannarot Profile</a>
+
+    </div>
+
+    <script src="service.js"></script>
+
+    <script src="./src/js/index.js"></script>
+
+  </body>
+
 </html>
+
+
